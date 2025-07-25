@@ -38,9 +38,11 @@ const Header = () => {
 
           {/* Desktop Actions */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="ghost" size="sm">
-              <Phone className="w-4 h-4 mr-2" />
-              (555) 123-4567
+            <Button variant="ghost" size="sm" asChild>
+              <a href="tel:+14055616021">
+                <Phone className="w-4 h-4 mr-2" />
+                (405) 561-6021
+              </a>
             </Button>
             <Button variant="outline" size="sm">
               <User className="w-4 h-4 mr-2" />

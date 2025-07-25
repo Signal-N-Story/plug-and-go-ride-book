@@ -19,8 +19,8 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              Experience luxury transportation with our premium fleet of vehicles 
-              and professional chauffeur services. Excellence in every journey.
+              Oklahoma City Metro's premier luxury transportation service. Serving Moore, Norman, 
+              Edmond, Yukon, Del City, Mustang, and surrounding areas with excellence in every journey.
             </p>
             <div className="flex space-x-3">
               <Button variant="ghost" size="icon" className="hover:text-primary">
@@ -42,12 +42,13 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold text-foreground">Services</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><a href="#" className="hover:text-primary transition-colors">Luxury Car Rentals</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Chauffeur Services</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Airport Transfers</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Corporate Travel</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Event Transportation</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Wedding Services</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Luxury Car Rentals OKC</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Chauffeur Services Moore</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">OU Football Game Transportation</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">OKC Thunder Game Rides</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Corporate B2B Travel Contracts</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Airport Transfers OKC</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Wedding Services Norman</a></li>
             </ul>
           </div>
 
@@ -57,15 +58,15 @@ const Footer = () => {
             <div className="space-y-3 text-sm text-muted-foreground">
               <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-primary flex-shrink-0" />
-                <span>(555) 123-4567</span>
+                <a href="tel:+14055616021" className="hover:text-primary transition-colors">(405) 561-6021</a>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-primary flex-shrink-0" />
-                <span>info@plugngorentals.com</span>
+                <a href="mailto:info@plugngorentals.com" className="hover:text-primary transition-colors">info@plugngorentals.com</a>
               </div>
               <div className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" />
-                <span>123 Luxury Drive<br />Premium City, PC 12345</span>
+                <span>1305 Ridgeway Drive<br />Moore, OK 73160</span>
               </div>
               <div className="flex items-center gap-3">
                 <Clock className="w-4 h-4 text-primary flex-shrink-0" />

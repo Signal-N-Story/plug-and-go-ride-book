@@ -29,8 +29,8 @@ const HeroSection = () => {
           
           {/* Subheading */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            Experience premium car rentals and professional chauffeur services 
-            with Plug & Go's exclusive fleet of luxury vehicles.
+            Oklahoma City Metro's premier luxury car rentals and chauffeur services. 
+            Serving Moore, Norman, Edmond, OU Football games, OKC Thunder events, and corporate B2B travel.
           </p>
           
           {/* Service Options */}
